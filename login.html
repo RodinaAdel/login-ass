@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+
+
+
+    <div class="form-popup w-100 border border-2 border-white text-center">
+        <div class="form-box-login  m-auto w-75">
+
+        <div class="header mb-0">
+            <h1 class="text-black fw-bold my-4 p-2">Smart Login System</h1>
+        </div>
+        <div class="input-group mt-2">
+
+            <div class="form-floating w-75">
+              <input oninput="validation('userEmail')" type="text" class="form-control bg-transparent" id="userEmail" placeholder="Username" required>
+              <label for="floatingInputGroup1">Enter Your Name</label>
+            </div>
+          </div>
+
+        <div class="input-group mt-4">
+
+            <div class="form-floating w-75 ">
+              <input type="text" oninput="validation('userPassword')" class="form-control bg-transparent" id="userPassword" placeholder="Userpassword" required>
+              <label for="floatingInputGroup2">Enter Your Password</label>
+            </div>
+
+          </div>
+
+          <br>
+    <button onclick="signUp()" id="search" class="btn btn-outline-light form-control py-2 my-3">
+        <a href="index.html" target="_self" class="text-decoration-none text-black">Login</a>
+    </button> 
+    <div class="test" id="rowData">
+    <p class="text-black mt-3">Don’t have an account? <a target="_self" href="reg.html"  class="text-black text-decoration-none"> Sign Up</a></p>
+</div>
+</div>
+      
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>

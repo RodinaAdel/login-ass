@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    margin: auto;
+    padding: 0;
+}
+
+ /* start of home  */
+
+.content{
+    margin-top: 10%;
+}
+body{
+    background-color: blueviolet;
+}
+navbar{
+    position: fixed;
+}
+.navbar{
+    background-color: blueviolet;
+}
+.content h1{
+    height: 300px;
+    width: 500px;
+}
+ /* end of home  */
+
+
+ /* start of login  */
+ .form-floating{
+    color: white;
+}
+.form-floating1 i{
+    width: 50px;
+    height: 58px;
+    vertical-align: middle;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: blueviolet;
+}
+.form-floating1{
+    background-color: blueviolet;
+}
+.form-popup{
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 720px;
+    /* pointer-events: none;
+    opacity: 0; */
+}
+/* .show-popup .form-popup{
+    opacity: 1;
+    pointer-events: auto;
+    transform: translate(-50%,-50%);
+    transition: transform 0.3s ease , opacity 0.1s;
+
+} */
+/* .blur-bg-overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    pointer-events: none;
+    backdrop-filter: blur(5px);
+    transition: 0.1s ease;
+} */
+
+/* .show-popup .blur-bg-overlay{
+    opacity: 1;
+    pointer-events: auto;
+} */
+
+ /* end of login  */
+
+ /* .form-box-signup{
+    display: none;
+ } */

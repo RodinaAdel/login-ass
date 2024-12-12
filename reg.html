@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="form-popup w-100 border border-2 border-white text-center">
+    <div class="form-box-signup p-5 m-auto w-75">
+
+        <h1 class="text-black fw-bold my-4 py-3">Smart Sign-Up System</h1>
+
+        <div class="input-group">
+
+            <div class="form-floating w-75">
+              <input oninput="validation('name')" type="text" class="form-control bg-transparent" id="name" placeholder="Username" required>
+              <label for="floatingInputGroup1">Enter Your Name</label>
+            </div>
+          </div>
+
+        <div class="input-group mt-4">
+
+            <div class="form-floating w-75 ">
+              <input type="text" oninput="validation('email')" class="form-control bg-transparent" id="email" placeholder="UserName" required>
+              <label for="floatingInputGroup2">Enter Your Email</label>
+            </div>
+        <div class="input-group mt-4">
+
+            <div class="form-floating w-75 ">
+              <input type="text" oninput="validation('password')" class="form-control bg-transparent" id="password" placeholder="Userpassword" required>
+              <label for="floatingInputGroup2">Enter Your Password</label>
+            </div>
+
+          </div>
+
+
+     <div class="footer d-block w-100">
+    <button onclick="login()" class="sign-up btn btn-outline-light form-control py-2 mt-3 rounded-2 d-block">
+    <a href="login.html" target="_self" class="text-black text-decoration-none fw-medium fs-6">Sign Up</a>
+
+    </button>
+    <br>
+    <p class="text-black text-center d-block">You have an account? <a href="login.html" class="text-center text-black text-decoration-none">Login</a></p>
+</div>
+</div>
+</div>
+</div>
+    
+<script src="reg.js"></script>
+</body>
+</html>
